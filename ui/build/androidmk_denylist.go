@@ -61,6 +61,9 @@ var androidmk_denylist []string = []string{
 
 var androidmk_allowlist []string = []string{
 	"bootable/deprecated-ota/updater/Android.mk",
+	"hardware/google/graphics/gs201/libhwc2.1/Android.mk",
+	"hardware/google/gchips/Android.mk",
+	"hardware/google/graphics/common/Android.mk",
 }
 
 func getAllLines(ctx Context, filename string) []string {
